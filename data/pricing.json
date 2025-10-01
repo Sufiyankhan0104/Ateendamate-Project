@@ -1,0 +1,74 @@
+{
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": "₹999",
+      "period": "per month",
+      "description": "Perfect for small teams and contractors",
+      "features": [
+        "Up to 50 workers",
+        "Basic attendance tracking",
+        "Daily check-in/out",
+        "Mobile app access",
+        "Email support"
+      ],
+      "cta": "Start Free Trial",
+      "popular": false
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "price": "₹2,999",
+      "period": "per month",
+      "description": "Ideal for growing businesses with multiple thekedars",
+      "features": [
+        "Up to 200 workers",
+        "Custom attendance types",
+        "Thekedar approval workflow",
+        "Location tracking",
+        "Advance payment records",
+        "Monthly reports",
+        "Priority support"
+      ],
+      "cta": "Start Free Trial",
+      "popular": true
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": "Custom",
+      "period": "pricing",
+      "description": "For large organizations with complex needs",
+      "features": [
+        "Unlimited workers",
+        "Advanced analytics",
+        "API access",
+        "Custom integrations",
+        "Dedicated support",
+        "On-premise deployment",
+        "Training & onboarding"
+      ],
+      "cta": "Contact Sales",
+      "popular": false
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What attendance types are supported?",
+      "answer": "We support Half Day, Full Day, and complex combinations like Full Day + Half Day, Full Day + Full Day, and even Full Day + Full Day + Full Day for extended contractor work periods."
+    },
+    {
+      "question": "How does thekedar approval work?",
+      "answer": "Thekedars can review daily attendance, verify location data, and approve or reject entries. Once approved, the attendance is locked for payroll processing."
+    },
+    {
+      "question": "Is location tracking accurate?",
+      "answer": "Yes, we use GPS coordinates to track check-in/out locations. You can set geofences to ensure workers are at the correct job sites."
+    },
+    {
+      "question": "Can I track advance payments?",
+      "answer": "Absolutely. Record advance payments, set limits, and automatically adjust them during month-end calculations."
+    }
+  ]
+}

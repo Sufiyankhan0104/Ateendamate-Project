@@ -1,0 +1,76 @@
+{
+  "tabs": [
+    {
+      "id": "attendance",
+      "label": "Attendance",
+      "title": "Custom Attendance Types",
+      "description": "From half days to complex multi-day combinations, track exactly what your workers do.",
+      "features": [
+        "Half Day, Full Day configurations",
+        "Multi-day combinations (Full Day + Half Day)",
+        "Extended periods (Full Day + Full Day + Full Day)",
+        "Perfect for thekedar workflows"
+      ]
+    },
+    {
+      "id": "approvals", 
+      "label": "Approvals",
+      "title": "Thekedar Approval Workflow",
+      "description": "Review, verify, and approve attendance with location data before payroll.",
+      "features": [
+        "Daily attendance review",
+        "Location verification",
+        "Bulk approval options",
+        "Audit trail for all approvals"
+      ]
+    },
+    {
+      "id": "month-end",
+      "label": "Month-End",
+      "title": "Automated Calculations",
+      "description": "Generate accurate payroll data with overtime, deductions, and advance adjustments.",
+      "features": [
+        "Total days calculation",
+        "Overtime tracking",
+        "Advance payment adjustments",
+        "Export-ready reports"
+      ]
+    },
+    {
+      "id": "location",
+      "label": "Location",
+      "title": "GPS Tracking",
+      "description": "Ensure workers check in from correct locations with geofencing capabilities.",
+      "features": [
+        "Real-time GPS coordinates",
+        "Geofence enforcement", 
+        "Location history",
+        "Map visualization"
+      ]
+    },
+    {
+      "id": "advances",
+      "label": "Advances",
+      "title": "Advance Payment Management",
+      "description": "Track and reconcile advance payments seamlessly.",
+      "features": [
+        "Record advance payments",
+        "Set payment limits",
+        "Month-end reconciliation",
+        "Payment history"
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "title": "Enterprise Security",
+      "description": "Your data is protected with bank-level security measures.",
+      "features": [
+        "End-to-end encryption",
+        "Role-based access",
+        "Audit logs",
+        "GDPR compliant"
+      ]
+    }
+  ]
+}
