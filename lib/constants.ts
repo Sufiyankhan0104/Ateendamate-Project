@@ -8,12 +8,12 @@ export const BRAND_CONFIG = {
 } as const;
 
 export const ATTENDANCE_TYPES = [
-  "Half Day",
-  "Full Day", 
-  "Full Day + Half Day",
-  "Full Day + Full Day",
-  "Full Day + Full Day + Day",
-  "Full Day + Full Day + Full Day"
+  "1/2",         // Half Day
+  "P",           // Full Day
+  "P + 1/2",     // Full + Half
+  "P + P",       // 2 Full Days
+  "P + P + 1/2", // 2 Full + Half
+  "P + P + P",   // 3 Full Days
 ] as const;
 
 export const NAVIGATION_LINKS = [

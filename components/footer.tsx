@@ -1,7 +1,12 @@
+'use client';
+
 import Link from "next/link";
 import { ExternalLink, Mail, Phone, MapPin } from "lucide-react";
 import { BRAND_CONFIG, NAVIGATION_LINKS } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
+
 
 const footerSections = [
   {
@@ -40,11 +45,22 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-4">
-              <div className="text-2xl font-bold bg-gradient-to-r from-brand to-accent bg-clip-text text-transparent">
-                {BRAND_CONFIG.name}
-              </div>
-            </Link>
+            <Link href="/" className="flex items-center space-x-2">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
+              className="flex items-center"
+            >
+              <Image
+                src="/images/Logo-image1.png"
+                alt="Brand Logo"
+                width={200}
+                height={140}
+                priority
+                className="mt-3"
+              />
+            </motion.div>
+          </Link>
             <p className="text-sm text-muted-foreground mb-6 max-w-md">
               {BRAND_CONFIG.description}
             </p>
@@ -87,7 +103,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 {BRAND_CONFIG.name}. All rights reserved.
+            © 2026 {BRAND_CONFIG.name}. All rights reserved.
           </p>
           
           <div className="flex items-center space-x-4 mt-4 sm:mt-0">

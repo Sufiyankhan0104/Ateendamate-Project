@@ -11,7 +11,7 @@ const features = [
     icon: Clock,
     title: "Custom Attendance Types",
     description: "Perfect for thekedar workflows with flexible combinations",
-    details: ATTENDANCE_TYPES.slice(0, 4),
+    details: ATTENDANCE_TYPES.slice(0, 6),
     color: "text-blue-500",
     bgColor: "bg-blue-500/10",
   },

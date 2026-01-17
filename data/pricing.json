@@ -2,15 +2,33 @@
   "plans": [
     {
       "id": "starter",
-      "name": "Starter",
-      "price": "₹999",
+      "name": "Free Trial",
+      "price": "₹0 / 1",
       "period": "per month",
-      "description": "Perfect for small teams and contractors",
+      "description": "Perfect for testing the platform",
       "features": [
-        "Up to 50 workers",
+        "Up to 5 workers",
+        "1 month free access",
         "Basic attendance tracking",
-        "Daily check-in/out",
+        "Daily check-in / check-out",
         "Mobile app access",
+        "Email support"
+      ],
+      "cta": "No credit card required",
+      "popular": false
+    },
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": "₹299",
+      "period": "per month",
+      "description": "Best for small teams & contractors",
+      "features": [
+        "Up to 25 workers",
+        "Basic attendance tracking",
+        "Daily check-in / check-out",
+        "Mobile app access",
+        "Attendance reports",
         "Email support"
       ],
       "cta": "Start Free Trial",
@@ -21,14 +39,14 @@
       "name": "Business",
       "price": "₹2,999",
       "period": "per month",
-      "description": "Ideal for growing businesses with multiple thekedars",
+      "description": "Ideal for growing businesses & multiple thekedars",
       "features": [
         "Up to 200 workers",
-        "Custom attendance types",
+        " Custom attendance types (P, P+½, P+P, etc.)",
         "Thekedar approval workflow",
-        "Location tracking",
+        "Location-based attendance",
         "Advance payment records",
-        "Monthly reports",
+        "Monthly & downloadable reports",
         "Priority support"
       ],
       "cta": "Start Free Trial",
@@ -42,11 +60,11 @@
       "description": "For large organizations with complex needs",
       "features": [
         "Unlimited workers",
-        "Advanced analytics",
+        "Advanced analytics & dashboards",
         "API access",
         "Custom integrations",
-        "Dedicated support",
-        "On-premise deployment",
+        "Dedicated support manager",
+        "On-premise / private deployment",
         "Training & onboarding"
       ],
       "cta": "Contact Sales",

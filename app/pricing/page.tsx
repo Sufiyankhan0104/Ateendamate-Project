@@ -48,7 +48,7 @@ export default function PricingPage() {
       {/* Pricing Cards */}
       <section className="py-24">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {pricingData.plans.map((plan, index) => (
               <motion.div
                 key={plan.id}

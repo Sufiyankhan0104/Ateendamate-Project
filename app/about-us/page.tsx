@@ -272,7 +272,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-24 bg-gradient-to-r from-background to-accent/5">
+      {/* <section className="py-24 bg-gradient-to-r from-background to-accent/5">
         <div className="container mx-auto px-4">
           <motion.div
             className="text-center mb-16"
@@ -316,7 +316,7 @@ export default function AboutUsPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-24">

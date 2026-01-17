@@ -113,7 +113,7 @@ export default function DocsPage() {
               <Button size="lg" asChild>
                 <Link href="/contact-us">
                   Book a Walkthrough
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                  {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -170,7 +170,7 @@ export default function DocsPage() {
                 {/* Arrow for desktop */}
                 {index < quickStartSteps.length - 1 && (
                   <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2">
-                    <ArrowRight className="h-6 w-6 text-muted-foreground" />
+                    {/* <ArrowRight className="h-6 w-6 text-muted-foreground" /> */}
                   </div>
                 )}
               </motion.div>
@@ -238,7 +238,7 @@ export default function DocsPage() {
                       {section.status === "Available" ? (
                         <Link href="/contact-us">
                           Read Documentation
-                          <ArrowRight className="ml-2 h-4 w-4" />
+                          {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
                         </Link>
                       ) : (
                         <>Coming Soon</>
@@ -361,7 +361,7 @@ export default function DocsPage() {
               <Button size="lg" asChild>
                 <Link href="/contact-us">
                   Contact Support
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                  {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>

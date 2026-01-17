@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -39,11 +40,18 @@ export function MainNav() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <motion.div
-              className="text-2xl font-bold bg-gradient-to-r from-brand to-accent bg-clip-text text-transparent"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
+              className="flex items-center"
             >
-              {BRAND_CONFIG.name}
+              <Image
+                src="/images/Logo-image1.png"
+                alt="Brand Logo"
+                width={200}
+                height={140}
+                priority
+                className="mt-3"
+              />
             </motion.div>
           </Link>
 
@@ -76,8 +84,14 @@ export function MainNav() {
           <div className="hidden md:flex items-center space-x-4">
             <ThemeSwitcher />
             <Button variant="ghost" size="sm" asChild>
-              <Link href="/docs">
+              <Link href="/login.attendamate.com">
                 Admin Panel
+                <ExternalLink className="ml-2 h-3 w-3" />
+              </Link>
+            </Button>
+            <Button variant="ghost" size="sm" asChild>
+              <Link href="/app.attendamate.com">
+                 Mobile App
                 <ExternalLink className="ml-2 h-3 w-3" />
               </Link>
             </Button>
@@ -132,8 +146,14 @@ export function MainNav() {
                 ))}
                 <div className="pt-4 space-y-2">
                   <Button variant="ghost" size="sm" asChild className="w-full">
-                    <Link href="/docs">
+                    <Link href="/login.attendamate.com">
                       Admin Panel
+                      <ExternalLink className="ml-2 h-3 w-3" />
+                    </Link>
+                  </Button>
+                  <Button variant="ghost" size="sm" asChild className="w-full">
+                    <Link href="/app.attendamate.com">
+                      Mobile App
                       <ExternalLink className="ml-2 h-3 w-3" />
                     </Link>
                   </Button>

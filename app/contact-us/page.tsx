@@ -10,19 +10,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    content: "hello@ateendamate.com",
+    content: "support@attendamate.com",
     description: "For general inquiries and support",
   },
   {
     icon: Phone,
     title: "Call Us",
-    content: "+91 9876543210",
+    content: "+91 8952006412",
     description: "Monday to Friday, 9 AM to 6 PM IST",
   },
   {
     icon: MapPin,
     title: "Visit Us",
-    content: "Mumbai, Maharashtra, India",
+    content: "Jaipur, Rajasthan, India",
     description: "Our headquarters",
   },
   {
@@ -110,7 +110,7 @@ export default function ContactUsPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.6 }}
               >
-                <Card>
+                {/* <Card>
                   <CardContent className="p-0">
                     <div className="aspect-[16/9] bg-gradient-to-br from-accent/20 to-warm/20 rounded-lg flex items-center justify-center">
                       <div className="text-center space-y-2 text-muted-foreground">
@@ -120,7 +120,7 @@ export default function ContactUsPage() {
                       </div>
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
               </motion.div>
             </motion.div>
 

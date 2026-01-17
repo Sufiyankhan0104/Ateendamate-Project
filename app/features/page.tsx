@@ -102,7 +102,7 @@ export default function FeaturesPage() {
                             {tab.id === "advances" && "💰"}
                             {tab.id === "security" && "🛡️"}
                           </div>
-                          <p className="font-medium">{tab.title} Demo</p>
+                          <p className="font-medium">{tab.title}</p>
                           <p className="text-sm">Interactive demo coming soon</p>
                         </div>
                       </div>

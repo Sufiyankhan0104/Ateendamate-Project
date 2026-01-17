@@ -124,18 +124,27 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/20">
-              <div className="aspect-[4/3] bg-gradient-to-br from-accent/20 to-warm/20 rounded-2xl flex items-center justify-center">
-                <div className="text-center space-y-4 text-muted-foreground">
-                  <div className="w-16 h-16 mx-auto bg-accent/20 rounded-2xl flex items-center justify-center">
-                    📱
-                  </div>
-                  <p className="font-medium">Dashboard Preview</p>
-                  <p className="text-sm">Interactive demo coming soon</p>
-                </div>
-              </div>
+            <div className="relative aspect-[4/3] bg-gradient-to-br from-accent/20 to-warm/20 rounded-2xl overflow-hidden flex items-center justify-center">
+
+              {/* Hover overlay */}
+              <div className="absolute inset-0 bg-white/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-10" />
+
+              <Image
+                src="/images/hero-image.jpeg"
+                alt="Attendance Dashboard Preview"
+                width={900}
+                height={675}
+                priority
+                className="
+              w-full h-full object-cover rounded-2xl
+              transition-transform duration-500 ease-out
+              group-hover:scale-105
+            "
+              />
+
             </div>
-            
+
+
             {/* Floating elements */}
             <motion.div
               className="absolute -top-4 -right-4 bg-green-500 rounded-full p-2 shadow-lg"
@@ -144,7 +153,7 @@ export function HeroSection() {
             >
               <CheckCircle className="h-4 w-4 text-white" />
             </motion.div>
-            
+
             <motion.div
               className="absolute -bottom-4 -left-4 bg-blue-500 rounded-full p-2 shadow-lg"
               animate={{ y: [10, -10, 10] }}
